@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- FontAvesom -->
+    <script src="https://kit.fontawesome.com/017a13057a.js" crossorigin="anonymous"></script>
+
+    <!-- BootstRap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <!-- css -->
+    <link rel="stylesheet" href="css/contact.css">
+
+    <!-- Swipper -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <title>Международная юридическая компания</title>
+</head>
+<body>
+
+<!-- Header -->
+<header> 
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container">
+        <a class="navbar-brand" href="index.html"><img src="img/log.png" style="width: 200px;" alt=""></a>
+        <button class="btn btn-primary me-2 navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="true" aria-label="Toggle navigation">
+          <span class=" navbar-toggler-icon navbar-toggler-light"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+          <div class="d-flex justify-content-center text-center collapse_menu">
+            <ul class="navbar-nav">
+              <li class="nav-item .links">
+                <a class="nav-link active text-white" aria-current="page" href="index.html">Главное</a>
+                <span ></span>
+              </li>
+              <li class="nav-item .links">
+                <a class="nav-link text-white" href="companation.html">О Компании</a>
+                <span></span>
+              </li>
+              <li class="nav-item .links">
+                <a class="nav-link text-white" href="servicees.html">Наши услуги</a>
+                <span></span>
+              </li>
+              <li class="nav-item .links">
+                <a class="nav-link text-white" href="our_commands.html">Наша команда</a>
+                <span></span>
+              </li>
+              <li class="nav-item .links">
+                <a class="nav-link text-white" href="contact.html">Контакты</a>
+                <span class="span"></span>
+              </li>
+              <li class="nav-item dropdown">
+                
+                <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <img style="width: 20px;" src="img/42568-2-russia-.png" alt=""> Русский
+                </a>
+                <span></span>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#"><img style="width: 20px;" src="img/kyrgyzstan-png-900_800.jpg" alt=""> Кыргызский</a></li>
+                </ul>
+              </li>
+              
+              <li class="nav-item  links">
+                <a data-bs-toggle="modal" data-bs-target="#staticBackdrops" class="nav-link" href="#"><i class="fas fa-user-plus" style="color: #fff;"></i> <strong style="color: rgb(255, 255, 255);">Регистрация</strong></a>  
+                <span></span>               
+              </li> 
+            </ul>
+          </div>
+        </div>
+      </div>
+              <!-- Modal sign up -->     
+          <div class="modal fade" id="staticBackdrops" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropsLabel" aria-hidden="true">
+            <div class="modal-dialog overflow-scroll">
+                <div class="modal-content">
+                    <div style="text-align: center;" class="modal-header">
+                    </div>
+                    <div style="text-align: center;" class="autorizi">
+                        <h4>Регистрация</h4>
+                        <div class="input_group">
+                            <div class="inputs">
+                                <div class="input_link"></i><input type="name" placeholder="ФИО"></div>
+                                <div class="input-group mb-3 input_link" style="width: 350px; margin: 0 auto;">
+                                  <button class="btn  dropdown-toggle active " style="border: none; outline: none;" type="button" data-bs-toggle="dropdown" aria-expanded="false"><img src="img/kyrgyzstan-png-900_800.jpg" style="width: 20px" alt=""><strong style="font-size: 15px;">+996 </strong></button>
+                                  <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#"><img src="img/42568-2-russia-.png" style="width: 20px" alt=""><strong>+7 </strong></a></li>
+                                  </ul>
+                                  <input type="text" class="form-control" aria-label="Text input with dropdown button">
+                                </div>
+                                <div class=" input-group mb-3 input_link"  style="width: 350px; margin: 0 auto;">
+                                  <select class="form-select input_link" id="inputGroupSelect01">
+                                    <option selected>Проблемы</option>
+                                    <option value="1">Lorem ipsum dolor sit amet.</option>
+                                    <option value="2">Lorem ipsum dolor sit amet consectetur.</option>
+                                    <option value="3">Lorem ipsum dolor sit amet.</option>
+                                    <hr class="mb-3 mt-3" style="width: 100%; height: 2px; background-color: rgba(0, 0, 0, 0.686);">
+                                    <option value="3">Другое...</option>
+                                  </select>
+                                </div>
+                                <div class="form-floating mb-4" style="width: 350px; margin: 0 auto;">
+                                  <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                                  <label for="floatingTextarea2">Напишите подробна о проблемы</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="auth d-flex justify-content-center">
+                            <div class="text_left">
+                                <a class="btn btn-primary" href="">Отправить</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="text-align: center;" class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                    </div>
+                </div>
+            </div>
+          </div>
+            </nav>
+</header>
+
+
+
+
+<main>
+
+    <div class="main">
+        <div class="center">
+            <h2>Ош</h2>
+            <div></div>
+            <p>Адрес: <a href="#"><b>ул.Раззакова</b></a></p>
+            <p>
+                Телефон: <a href="#"> <b>+ (996) 555 25 15 25</b></a>
+            </p>
+            <p>
+                Почта: <a href="#"><b>office@abai.com</b></a>
+            </p>
+        </div>
+        <div class="kart">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d189.4791283937782!2d72.8005503378047!3d40.548966482878434!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38bdabfcf76919eb%3A0x727d735a37fdb04a!2z0YPQu9C40YbQsCDQoNCw0LfQt9Cw0LrQvtCy0LAsINCe0Yg!5e0!3m2!1sru!2skg!4v1612695392425!5m2!1sru!2skg" frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+        <div class="center_2">
+            <h2>Бишкек</h2>
+            <div></div>
+            <p>Адрес: <a href="#"><b>ул.Раззакова 19</b></a></p>
+            <p>
+                Телефон: <a href="#"> <b>+ (996) 777 17 47 97</b></a>
+            </p>
+            <p>
+                Почта: <a href="#"><b>office@abai.com</b></a>
+            </p>
+        </div>
+        <div class="kart_2">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2924.210007508376!2d74.60228131543379!3d42.86841137915609!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x389eb7d023f2294b%3A0x76b8456e9895afcf!2zMTkg0YPQuy4g0KDQsNC30LfQsNC60L7QstCwLCDQkdC40YjQutC10Lo!5e0!3m2!1sru!2skg!4v1612695665981!5m2!1sru!2skg"  frameborder="0"  allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+    </div>
+
+
+
+</main>
+
+
+
+
+
+
+
+
+<!-- FOOTER -->
+
+<footer>
+   
+
+    <div class="footer">
+        <h1>У вас появились вопросы?</h1>
+        <p class="mt-4">Оставьте нам заявку, наши специалисты свяжутся с вами в  ближайшее премя</p>
+        <div class="cen">
+            <ul>
+                <li><input class="one" type="text" placeholder="Ваше ФИО*"></li>
+                <li><input class="one" type="number" placeholder="Ваш телефон*"></li>
+                <li><input class="one" type="email" placeholder="Ваш email"></li>
+                <li class="area">
+                    <textarea class="coment"  cols="40" placeholder="Ваше сообщения*" rows="7"></textarea>
+                </li>
+                <li class="submit">
+                    <input type="submit">
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <nav>
+      <div class="footer_items bg-dark text-light ">
+        <div class=" container footer_items d-flex justify-content-between ">
+          <div class="footer_left">
+            <ul class="">
+              <li><i class="fas fa-map-marker-alt"></i> Адресс: <a href="#">Ул. Курманжан-Датка 34.</a></li>
+              <li><i class="fas fa-phone-square"></i> Тел: <a class="tel:+996000000" href="#"> +996 00 00 00 </a></li>
+              <li> Email: <a class="tell" href="#"> abay123@mail.com </a></li>
+            </ul>
+          </div>
+
+
+          <p class="text-center pt-4">Copyright © 2021 Юристы АБАЙ | All rights reserved</p>
+
+
+        </div>
+    </div>
+  </nav>
+</footer>
+
+
+ <!-- JavaScript -->
+ <script src="js/script.js"></script>
+    <!-- BootstRap -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    <!-- Swipper js -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      slidesPerView: 3,
+      spaceBetween: 20,
+      freeMode: true,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+        
+      },
+    });
+  </script>
+</body>
+</html>

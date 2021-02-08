@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- FontAvesom -->
+    <script src="https://kit.fontawesome.com/017a13057a.js" crossorigin="anonymous"></script>
+
+    <!-- AOS JS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- BootstRap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/our-commands.css">
+    <title>Наша команда</title>
+    
+</head>
+<body>
+
+    <header>  
+
+        <div class="header_inner">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container">
+                    <a class="navbar-brand" href="#"><img src="img/log.png" style="width: 180px;" alt=""></a>
+                    <button class="btn btn-primary me-2 navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="true" aria-label="Toggle navigation">
+                    <span class=" navbar-toggler-icon navbar-toggler-light"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end col_menu" id="navbarNavDropdown">
+                    <div class="d-flex justify-content-center text-center collapse_menu">
+                        <ul class="navbar-nav">
+                        <li class="nav-item .links">
+                            <a class="nav-link active text-white" aria-current="page" href="index.html">Главное</a>
+                            <span ></span>
+                        </li>
+                        <li class="nav-item .links">
+                            <a class="nav-link text-white" href="companation.html">О Компании</a>
+                            <span></span>
+                        </li>
+                        <li class="nav-item .links">
+                            <a class="nav-link text-white" href="servicees.html">Наши услуги</a>
+                            <span></span>
+                        </li>
+                        <li class="nav-item .links">
+                            <a class="nav-link text-white" style="color: blue; font-weight: 600;" href="our_commands.html">Нашa команда</a>
+                            <span class="span"></span>
+                        </li>
+                        <li class="nav-item .links">
+                            <a class="nav-link text-white" href="contact.html">Контакты</a>
+                            <span></span>
+                        </li>
+                        <li class="nav-item dropdown">
+
+                            <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="true">
+                            <img style="width: 20px;" src="img/42568-2-russia-.png" alt=""> Русский
+                            </a>
+                            <span></span>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#"><img style="width: 20px;" src="img/kyrgyzstan-png-900_800.jpg" alt=""> Кыргызский</a></li>
+                            </ul>
+                        </li>
+                        
+                        <li class="nav-item  links">
+                            <a data-bs-toggle="modal" data-bs-target="#modaticBackdrops" class="nav-link" href="#"><i class="fas fa-user-plus" style="color: #fff;"></i> <strong style="color: rgb(255, 255, 255);">Регистрация</strong></a>   
+                            <span></span>              
+                        </li> 
+                        </ul>
+                    </div>
+                    </div>
+                </div>
+        </nav>
+        </div>
+
+        <!-- Modal sign up -->     
+        <div class="modals">
+            <div class="modal fade " id="modaticBackdrops" data-bs-backdrop="modatic" data-bs-keyboard="false" tabindex="-1"        aria-labelledby="modaticBackdropsLabel" aria-hidden="true">
+                <div class="modal-dialog overflow-scroll modal_menu">
+                    <div class="modal-content">
+                        <div style="text-align: center;" class="autorizi">
+                            <h4 class="mt-4">Регистрация</h4>
+                            <div class="input_group">
+                                <div class="inputs">
+                                    <div class="input_link"></i><input type="name" placeholder="ФИО"></div>
+                                    <div class="input-group mb-3 input_link" style="width: 350px; margin: 0 auto;">
+                                        <button class="btn  dropdown-toggle active " style="border: none; outline: none;" type="button" data-bs-toggle="dropdown" aria-expanded="false"><img src="img/kyrgyzstan-png-900_800.jpg" style="width: 20px" alt=""><strong style="font-size: 15px;">+996 </strong></button>
+                                        <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#"><img src="img/42568-2-russia-.png" style="width: 20px" alt=""><strong>+7 </strong></a></li>
+                                        </ul>
+                                        <input type="text" class="form-control" aria-label="Text input with dropdown button">
+                                    </div>
+                                    <div class=" input-group mb-3 input_link"  style="width: 350px; margin: 0 auto;">
+                                        <select class="form-select input_link" id="inputGroupSelect01">
+                                        <option selected>Проблемы</option>
+                                        <option value="1">Lorem ipsum dolor sit amet.</option>
+                                        <option value="2">Lorem ipsum dolor sit amet consectetur.</option>
+                                        <option value="3">Lorem ipsum dolor sit amet.</option>
+                                        <hr class="mb-3 mt-3" style="width: 100%; height: 2px; background-color: rgba(0, 0, 0, 0.686);">
+                                        <option value="3">Другое...</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-floating mb-4" style="width: 350px; margin: 0 auto;">
+                                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                                        <label for="floatingTextarea2">Напишите подробна о проблемы</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="auth d-flex justify-content-center">
+                                <div class="text_left mb-4">
+                                    <a class="btn btn-primary" href="">Отправить</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div style="text-align: center;" class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </div>
+               
+    </header>
+    <main>
+        <section id="our_commands">
+            <div class="commands_child">
+              <div class="card_childs" style="padding: 100px;" >
+                <div class="text_head mb-5">
+                    <h2 class=" text-center text-white">Наша команда</h2>
+                  </div>
+                    <div class="col-lg-12 d-flex row " data-aos="fade-right">
+                        <div class="col-sm m-0">
+                            <img src="img/team1.jpg" style="width: 350px; height: 330px; border-radius: 50%; border-left: 2px solid #000; border-right: 2px solid #000;"  alt="">
+                        </div>
+                        
+                        <div class="col-sm mt-4 text-right" style="text-align: right;">
+                            <h2 class="text-white">Международный арбитраж</h2>
+                            <p  class="text-white" style="font-size: 20px; font-weight: 500;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora adipisci, quos atque consectetur, aliquid libero quo voluptas, explicabo quibusdam corrupti molestiae minima fugit totam modi?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas quisquam, consectetur quod velit sit quia, eos aspernatur commodi nesciunt, quis dolores tenetur iusto animi magnam.</p>
+                            <div class="mt-4"><a class="btn btn-primary" href="#">Подробнее...</a></div>
+                        </div>
+                        
+                    </div>
+                    <span style="width: 100%; display: flex; background: #000; height: 2px; margin: 15px 0;"></span>
+                    <div class="col-lg-12 d-flex row mt-5" data-aos="fade-left">
+                        <div class="col-sm  text-left mt-4 " >
+                            <h2  class="text-white">Международный арбитраж</h2>
+                            <p  class="text-white" style="font-size: 20px; font-weight: 500;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora adipisci, quos atque consectetur, aliquid libero quo voluptas, explicabo quibusdam corrupti molestiae minima fugit totam modi?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas quisquam, consectetur quod velit sit quia, eos aspernatur commodi nesciunt, quis dolores tenetur iusto animi magnam.</p>
+                            <div class="mt-4"><a class="btn btn-primary" href="#">Подробнее...</a></div>
+                        </div>
+                        <div class="col-sm d-flex justify-content-end">
+                            <img src="img/team2.jpg" style="width: 350px; height: 330px; border-radius: 50%; border-left: 2px solid #000; border-right: 2px solid #000;"  alt="">
+                        </div>
+                    </div>
+                    <span style="width: 100%; display: flex; background: #000; height: 2px; margin: 15px 0;"></span>
+
+                    <div class="col-lg-12 d-flex row mt-5" data-aos="fade-right">
+                        
+                        <div class="col-sm m-0">
+                            <img src="img/team3.jpg" style="width: 350px; height: 330px; border-radius: 50%; border-left: 2px solid #000; border-right: 2px solid #000;"  alt="">
+                        </div>
+                        <div class="col-sm mr-5 mt-4 " style="text-align: right;" >
+                            <h2 class="text-white">Международный арбитраж</h2>
+                            <p class="text-white" style="font-size: 20px; font-weight: 500;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora adipisci, quos atque consectetur, aliquid libero quo voluptas, explicabo quibusdam corrupti molestiae minima fugit totam modi?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas quisquam, consectetur quod velit sit quia, eos aspernatur commodi nesciunt, quis dolores tenetur iusto animi magnam.</p>
+                            <div class="mt-4"><a class="btn btn-primary" href="#">Подробнее...</a></div>
+                        </div>
+                        
+                    </div>
+                    <span style="width: 100%; display: flex; background: #000; height: 2px; margin: 15px 0;"></span>
+                    <div class="col-lg-12 d-flex row mt-5" data-aos="fade-left">
+                        <div class="col-sm m-0 text-left mt-5" >
+                            <h2 class="text-white">Международный арбитраж</h2>
+                            <p class="text-white" style="font-size: 20px; font-weight: 500;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora adipisci, quos atque consectetur, aliquid libero quo voluptas, explicabo quibusdam corrupti molestiae minima fugit totam modi?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas quisquam, consectetur quod velit sit quia, eos aspernatur commodi nesciunt, quis dolores tenetur iusto animi magnam.</p>
+                            <div class="mt-4"><a class="btn btn-primary" href="#">Подробнее...</a></div>
+                        </div>
+                        
+                        <div class="col-sm m-0 d-flex justify-content-end">
+                            <img src="img/team4.jpg" style="width: 350px; height: 330px; border-radius: 50%; border-left: 2px solid #000; border-right: 2px solid #000;"  alt="">
+                        </div>
+                                                
+                    </div>
+                    <span style="width: 100%; display: flex; background: #000; height: 2px; margin: 15px 0;"></span>
+                    <div class="col-lg-12 d-flex row mt-5 justify-content-between" data-aos="fade-right">
+                                               
+                        <div class="col-sm w-100  overflow-hidden">
+                            <img src="img/team5.jpg" style="width: 350px; height: 330px; border-radius: 50%; border-left: 2px solid #000; border-right: 2px solid #000;"  alt="">
+                        </div>
+
+                        <div class="col-sm m-0 mt-5" style="text-align: right;" >
+                            <h2 class="text-white">Международный арбитраж</h2>
+                            <p class="text-white" style="font-size: 20px; font-weight: 500;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora adipisci, quos atque consectetur, aliquid libero quo voluptas, explicabo quibusdam corrupti molestiae minima fugit totam modi?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas quisquam, consectetur quod velit sit quia, eos aspernatur commodi nesciunt, quis dolores tenetur iusto animi magnam.</p>
+                            <div class="mt-4"><a class="btn btn-primary" href="#">Подробнее...</a></div>
+                        </div>                 
+                    </div>
+              </div>
+            </div>
+          </section>
+
+          <section>
+            <div class="footer">
+                <p class="pt-5">Свяжитесь с нами</p>
+                <div class="cen">
+                    <ul>
+                        <li><input class="one" type="text" placeholder="Ваше ФИО*"></li>
+                        <li><input class="one" type="text" placeholder="Ваш телефон*"></li>
+                        <li><input class="one" type="email" placeholder="Ваш email"></li>
+                        <li class="area">
+                            <textarea class="coment"  cols="40" placeholder="Ваше сообщения*" rows="7"></textarea>
+                        </li>
+                        <li class="submit">
+                            <input type="submit">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+          </section>
+    </main>
+
+    <footer>
+          <div class="footer_items bg-dark text-light ">
+            <div class=" container footer_items d-flex justify-content-around flex-wrap">
+              <div class="footer_left">
+                <ul class="">
+                  <li><i class="fas fa-map-marker-alt"></i> Адресс: <a href="https://2gis.kg/osh/geo/70030076150255064?m=72.808101%2C40.507931%2F17.02">Ул. Курманжан-Датка 34.</a></li>
+                  <li><i class="fas fa-phone-square"></i> Тел: <a class="tel:+996000000" href="tel:+996000000"> +996 00 00 00 </a></li>
+                  <li> Email: <a class="tell" href="#"> abay123@mail.com </a></li>
+                </ul>
+              </div>
+
+              <div class="copy">
+                <p class="text-center pt-4">Copyright © 2021 Юристы АБАЙ | All rights reserved</p>
+              </div>
+
+              <div class="icons d-flex justify-content-around pt-4">
+                <a class="text-light" href="https://web.facebook.com/?_rdc=1&_rdr"><i class="fab fa-facebook"></i></a>
+                <a class="text-light" href="https://www.instagram.com/?hl=ru"><i class="fab fa-instagram"></i></a>
+                <a class="text-light" href="https://www.whatsapp.com/?lang=ru"><i class="fab fa-whatsapp"></i></a>
+                <a class="text-light" href="https://twitter.com/?lang=ru"><i class="fab fa-twitter"></i></a>
+              </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+  <script src="js/script.js"></script>
+
+  <!-- AOS JS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init( );
+    </script>
+
+  <!-- BootstRap -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+</body>
+</html>
